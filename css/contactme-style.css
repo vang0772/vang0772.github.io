@@ -1,0 +1,26 @@
+body {
+  font-family: Padauk, sans-serif;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+ul.navigation li {
+  float: left;
+  list-style-type: none;
+}
+
+a:link{
+  text-decoration: none;
+  color: gold;
+}
+
+a:visited {
+  color: yellow;
+}
+
+ul {
+  list-style-image: none;
+}

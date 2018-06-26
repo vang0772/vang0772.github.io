@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/homepage.css">
+  <link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
+ <title>Home Page</title>
+
+<!-- temporary CSS style -->
+<style>
+body{
+  margin: 0px;
+}
+
+.mainbody {
+  /* display: flex; */
+  /* flex-flow: row wrap; */
+  /* justify-content: space-around; */
+  font-family: Padauk;
+  font-weight: bold;
+}
+
+.mainbody {
+  min-height: 100vh;
+}
+
+.mainbody > * {
+  flex: 1;
+}
+
+.mainbody header, .mainbody footer {
+  flex: 0 1 100vw;
+  text-align: center;
+}
+
+.hello {
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul.navigation li {
+  float: left;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+a:link{
+  text-decoration: none;
+  color: gold;
+}
+
+a:visited {
+  color: #FFDF00;
+}
+
+ul {
+  list-style-image: none;
+}
+
+.dropbtn {
+    padding: 0px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: navy;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <div class="mainbody">
+
+    <header class="hello">
+      <h1>Hello/ Nyob Zoo/ Bonjour</h1>
+      <h2>Welcome to my page!</h2>
+      <hr>
+      <div class="links">
+        <ul class="navigation">
+          <li>|   <div class="dropdown">
+              <button class="dropbtn"><a href="aboutme.html">About Me</a></button>
+<!-- /* Dropdown menu for About Me section */ -->
+              <div class="dropdown-content">
+                <a href="#">My Hobbies</a>
+                <!-- <a href="#">My Favorite Things</a> -->
+              </div>
+            </div> | </li>
+          <li><a href="class-projects.html">Class Projects</a> | </li>
+          <li><a href="contactme.html">Contact Me</a> | </li>
+       </ul>
+      </div>
+      <hr>
+    </header>
+
+    <div class="intro">
+      <p>
+      This page encapsulates my learning from Asian Media Access' Let's Get IT (Web Design) class.
+      I hope you enjoy it and thank you for visiting.
+      </p>
+    </div>
+
+    <footer>
+        <img id="logo" src="../pictures/nou-logo.png" alt="image logo of Nou Vang" width="100px">
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

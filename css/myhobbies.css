@@ -1,0 +1,106 @@
+
+  body {
+    font-family: Padauk, sans-serif;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul.navigation li {
+    float: left;
+    list-style-type: none;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: gold;
+  }
+
+  a:visited{
+    color: #FFDF00;
+  }
+
+  ul.me-links li {
+    list-style-type: none;
+  }
+
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+      padding: 0px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      background-color: white;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      color: navy;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: white;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      background-color: white;
+  }
+
+  .travel {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quebec {
+      margin: 5px;
+      border: 1px solid #ccc;
+      width: 180px;
+  }
+
+  .quebec:hover {
+      border: 1px solid #777;
+  }
+
+  .quebec img {
+      width: 100%;
+      height: px;
+  }
+
+  .desc {
+      padding: 10px;
+      text-align: center;
+  }
